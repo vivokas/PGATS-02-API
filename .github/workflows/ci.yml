@@ -29,7 +29,7 @@ jobs:
         run: npm start &
 
       - name: Esperar API estar funcionando
-        run: skeep 5
+        run: sleep 5
 
       - name: Rodar os testes API via HTTP
         run: npm run test-external
