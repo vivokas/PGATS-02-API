@@ -13,11 +13,13 @@ Esta API permite realizar operações de registro, login, consulta de usuários 
 ## Como executar
 
 - Para iniciar o servidor:
-  ```bash
+  bash
   node server.js
-  ```
+  
+
 - A API estará disponível em `http://localhost:3000`.
 - A documentação Swagger estará disponível em `http://localhost:3000/api-docs`.
+
 
 ## Endpoints
 
@@ -35,6 +37,7 @@ Esta API permite realizar operações de registro, login, consulta de usuários 
 ## Testes
 
 Para testar a API com Supertest, importe o arquivo `app.js` em seus testes, pois ele exporta a aplicação sem iniciar o servidor.
+
 
 ## Observações
 
